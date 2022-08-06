@@ -9,16 +9,18 @@ import SignUp from "./pages/signup";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/sign-up" element={<SignUp />} />
-      </Routes>
-    </Router>
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/sign-up" element={<SignUp />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

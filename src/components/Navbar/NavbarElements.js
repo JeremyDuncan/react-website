@@ -105,7 +105,7 @@ const Header = () => {
             }}
           >
             {/* Desktop View */}
-            Jeremy Duncan
+            Welcome!
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -170,7 +170,7 @@ const Header = () => {
             }}
           >
             {/* Mobile View */}
-            Jeremy Duncan
+            Welcome!
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
